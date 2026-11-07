@@ -6,6 +6,8 @@ const path = require('path');
 // Se estiver no Render com persistent disk, usa /var/data
 // Caso contrário, usa a pasta local
 
+const DATA_DIR = path.join(__dirname, '../../data');
+
 // Estrutura inicial dos arquivos de dados
 const INITIAL_DATA = {
   config: {
